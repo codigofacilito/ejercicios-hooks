@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+
+import ViewOne from './views/ViewOne';
+import ViewTwo from './views/ViewTwo';
+// import Counter from './views/Counter';
+// import CounterTwo from './views/CounterTwo';
+import AnalyticsPageOne from './views/AnalyticsPageOne';
+import AnalyticsPageTwo from './views/AnalyticsPageTwo';
+import AnalyticsPageThree from './views/AnalyticsPageThree';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Repaso Hooks</h1>
+      <AnalyticsPageOne />
+      <AnalyticsPageTwo />
+      <AnalyticsPageThree />
     </div>
   );
 }
